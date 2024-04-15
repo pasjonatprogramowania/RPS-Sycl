@@ -15,7 +15,13 @@ void Square::setColor(const std::string& colour) {
     else if (colour == "blue")
         shape.setFillColor(sf::Color::Blue);
     else
-        shape.setFillColor(sf::Color::White); // Default color if not recognized
+        shape.setFillColor(sf::Color::White);
+}
+void Square::move(const float x,const float y) {
+    this->x = x;
+    this->y = y;
+
+        shape.move(x, y);
 }
 
 std::string Square::getColor() const {
@@ -25,3 +31,5 @@ std::string Square::getColor() const {
 void Square::draw(sf::RenderWindow& window) const{
     window.draw(shape);
 }
+
+

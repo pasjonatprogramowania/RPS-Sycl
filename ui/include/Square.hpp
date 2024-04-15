@@ -12,6 +12,7 @@ public:
     void setColor(const std::string& colour);
     std::string getColor() const;
     void draw(sf::RenderWindow& window) const;
+    void move(const float x, const float y);
 
 private:
     sf::RectangleShape shape;

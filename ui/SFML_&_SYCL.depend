@@ -1,8 +1,10 @@
 # depslib dependency file v1.0
-1712952569 source:c:\users\pytol\desktop\klasy\sfml_&_sycl\main.cpp
+1713038911 source:c:\users\pytol\desktop\klasy\sfml_&_sycl\main.cpp
 	<SFML/Graphics.hpp>
 	<vector>
 	<iostream>
+	<cstdlib>
+	<ctime>
 	"Square.hpp"
 
 1545381174 c:\msys64\mingw32\include\sfml\graphics.hpp
@@ -414,10 +416,25 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1712945223 c:\users\pytol\desktop\klasy\sfml_&_sycl\include\square.hpp
+1713038131 c:\users\pytol\desktop\klasy\sfml_&_sycl\include\square.hpp
 	<SFML/Graphics.hpp>
 	<string>
 
-1712945223 source:c:\users\pytol\desktop\klasy\sfml_&_sycl\src\square.cpp
+1713038131 source:c:\users\pytol\desktop\klasy\sfml_&_sycl\src\square.cpp
+	"Square.hpp"
+
+1713038131 source:c:\users\pytol\desktop\klasy\rps-sycl\src\square.cpp
+	"Square.hpp"
+
+1713038131 c:\users\pytol\desktop\klasy\rps-sycl\include\square.hpp
+	<SFML/Graphics.hpp>
+	<string>
+
+1713195078 source:c:\users\pytol\desktop\klasy\rps-sycl\main.cpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	<cstdlib>
+	<ctime>
 	"Square.hpp"
 
