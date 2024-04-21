@@ -1,8 +1,9 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include <iostream>
-
 #include "Square.hpp"
+#include "GameEngine.hpp"
+
 float k_size=50.0;//rozmiar kwadratu
 float k_quantity(sf::RenderWindow& window, float k_size) {
     sf::Vector2u windowSize = window.getSize();
@@ -11,7 +12,7 @@ float k_quantity(sf::RenderWindow& window, float k_size) {
     std::cout << width << " " << height << std::endl;
     float quantity=(width*height)/(k_size*k_size);
 
-    // Zwracanie stosunku szerokosci do wysokoœci jako float
+    // Zwracanie stosunku szerokosci do wysokoï¿½ci jako float
     return quantity;
 }
 
@@ -20,7 +21,7 @@ std::vector<std::vector<Square>> k_maker(sf::RenderWindow& window, float size) {
     float width = windowSize.x;
     float height = windowSize.y;
     float x_square = 0.0, y_square = 0.0;
-    std::vector<std::vector<Square>> grid; // Struktura przechowuj¹ca kwadraty
+    std::vector<std::vector<Square>> grid; // Struktura przechowujï¿½ca kwadraty
 
     // Petla po kolumnach
     while (x_square <= width - size) {
